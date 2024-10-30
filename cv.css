@@ -340,6 +340,10 @@ article .icon {
     border-radius: 2rem;
 }
 
+.video-container {
+    margin-top: 5px;
+}
+
 iframe {
     width: 20rem;
     height: 12rem;
