@@ -19,6 +19,10 @@ p {
     color: rgb(85, 85, 85);
 }
 
+.page-title {
+    width: 200pt;
+}
+
 a,
 .btn {
     transition: all 300ms ease;
@@ -48,6 +52,7 @@ nav,
 
 .name:hover {
     cursor: default;
+    transition: all 300ms ease;
     color: rgb(124, 169, 124);
 }
 
@@ -230,7 +235,11 @@ section {
 
 .btn-1,
 .btn-2 {
-    border: rgb(85, 85, 85) 0.1rem solid;
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-2 {
+    width: auto;
 }
 
 .btn-1:hover,
@@ -238,15 +247,10 @@ section {
     cursor: pointer;
 }
 
-.btn-1:hover {
+.btn-1:hover,
+.btn-2:hover {
     background-color: rgb(124, 169, 124);
     color: white;
-}
-
-.btn-2:hover {
-    background-color: black;
-    color: white;
-    border: rgb(124, 169, 124) 0.1rem solid;
 }
 
 /* About */
@@ -341,7 +345,7 @@ article .icon {
 }
 
 .video-container {
-    margin-top: 5px;
+    margin-top: 2rem;
 }
 
 iframe {
